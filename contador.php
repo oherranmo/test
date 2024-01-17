@@ -7,5 +7,5 @@
             $count=0;
     }
 
-    secookie('count',$count);
+    setcookie('count',$count);
     echo $count;
